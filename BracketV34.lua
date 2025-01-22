@@ -3681,7 +3681,7 @@ Bracket.Elements = {
 					)
 					OptionContainerAsset.Size = UDim2.fromOffset(
 						DropdownAsset.Background.AbsoluteSize.X,
-						math.clamp(OptionContainerAsset.ListLayout.AbsoluteContentSize.Y, 14, 84) + 6
+						math.clamp(OptionContainerAsset.ListLayout.AbsoluteContentSize.Y, 14, 84) + 35
 						-- OptionContainerAsset.ListLayout.AbsoluteContentSize.Y + 2
 					)
 				end)
